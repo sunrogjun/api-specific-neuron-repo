@@ -1,8 +1,4 @@
-# API-Specific Neurons for Deprecated API Mitigation
-
-This repository is the anonymized release artifact for the ICSE 2027 submission on localizing API-specific FFN neurons in code LLMs and editing those neurons to mitigate deprecated API completions.
-
-The repository keeps the processed datasets, paper-result tables, and minimal scripts needed to reproduce the paper experiments. Exploratory attempts, old cross-library experiments, paper build files, long logs, smoke runs, checkpoints, and temporary output caches are intentionally excluded.
+# api-neuron-loc-edit
 
 ## Repository Overview
 
