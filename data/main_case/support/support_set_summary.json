@@ -1,0 +1,16 @@
+{
+  "outdated_path": "data/main_case/support/outdated_support_cases.jsonl",
+  "modern_path": "data/main_case/support/modern_support_cases.jsonl",
+  "outdated_n": 352,
+  "modern_n": 639,
+  "stats": {
+    "modern:matrix_exp": 62,
+    "modern:matrix_norm": 212,
+    "modern:matrix_power": 123,
+    "modern:matrix_rank": 242,
+    "outdated:matrix_exp": 208,
+    "outdated:matrix_power": 94,
+    "outdated:matrix_rank": 50
+  },
+  "source_dataset_note": "Derived from the main-case matrix dataset used in the paper; the released support sets below are the fixed evaluation subsets."
+}

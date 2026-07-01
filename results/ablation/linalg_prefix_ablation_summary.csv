@@ -1,0 +1,16 @@
+model,group,kind,n_samples,n_runs,error_rate_zero,error_rate_gaussian,kl_mean_zero,kl_median_zero,kl_mean_gaussian,kl_median_gaussian
+starcoder2-3B,top200,overall,1936,1,0.057,0.178,0.255,0.019,0.957,0.189
+starcoder2-3B,random200,overall,19360,10,0.011,0.065,0.033,0.000,0.204,0.021
+starcoder2-3B,random200,run_avg,19360,10,0.011,0.065,0.033,,0.204,
+starcoder2-7B,top200,overall,1729,1,0.079,0.124,0.263,0.026,0.536,0.114
+starcoder2-7B,random200,overall,17290,10,0.006,0.035,0.014,0.000,0.104,0.005
+starcoder2-7B,random200,run_avg,17290,10,0.006,0.035,0.014,,0.104,
+starcoder2-15B,top200,overall,1827,1,0.109,0.130,0.265,0.025,0.387,0.076
+starcoder2-15B,random200,overall,18270,10,0.006,0.029,0.012,0.000,0.064,0.002
+starcoder2-15B,random200,run_avg,18270,10,0.006,0.029,0.012,,0.064,
+deepseek-coder-6.7B,top200,overall,2447,1,0.184,0.049,0.105,0.022,0.060,0.009
+deepseek-coder-6.7B,random200,overall,24470,10,0.008,0.024,0.013,0.000,0.035,0.002
+deepseek-coder-6.7B,random200,run_avg,24470,10,0.008,0.024,0.013,,0.035,
+CodeLlama-7B,top200,overall,1960,1,0.188,0.083,0.191,0.064,0.395,0.049
+CodeLlama-7B,random200,overall,19600,10,0.010,0.031,0.022,0.000,0.089,0.003
+CodeLlama-7B,random200,run_avg,19600,10,0.010,0.031,0.022,,0.089,

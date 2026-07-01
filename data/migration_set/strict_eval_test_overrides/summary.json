@@ -1,0 +1,22 @@
+[
+  {
+    "model": "starcoder2-3b",
+    "task": "svd",
+    "rejected_pool": 100
+  },
+  {
+    "model": "starcoder2-15b",
+    "task": "svd",
+    "rejected_pool": 100
+  },
+  {
+    "model": "deepseek-coder-6.7b-instruct",
+    "task": "norm",
+    "rejected_pool": 100
+  },
+  {
+    "model": "deepseek-coder-6.7b-instruct",
+    "task": "svd",
+    "rejected_pool": 100
+  }
+]

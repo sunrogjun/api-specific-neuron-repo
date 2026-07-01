@@ -1,0 +1,15 @@
+{
+  "model": "starcoder2-7b",
+  "task": "symeig",
+  "all_rows": 1000,
+  "all_unique_rows": 1000,
+  "all_duplicates": 0,
+  "base_deprecated_candidates_in_augmented": 656,
+  "train_rows": 800,
+  "valid_rows": 100,
+  "test_rows": 100,
+  "test_target": "base predicts rejected (deprecated API)",
+  "source_all": "source_project_root/dataset/edapi_torch_completion_augmented/torch_symeig_to_linalg_eigh/all.jsonl",
+  "source_matches": "source_project_root/base_api_matches/edapi_torch_completion/torch_symeig_to_linalg_eigh_starcoder2-7b_base_deprecated_matches.jsonl",
+  "output_dir": "source_project_root/dataset/edapi_torch_completion_augmented_model_conditioned_cholesky_symeig_strict_20260506/starcoder2-7b/symeig"
+}

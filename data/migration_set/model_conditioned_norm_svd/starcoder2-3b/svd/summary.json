@@ -1,0 +1,15 @@
+{
+  "model": "starcoder2-3b",
+  "task": "svd",
+  "all_rows": 1000,
+  "all_unique_rows": 1000,
+  "all_duplicates": 0,
+  "base_deprecated_candidates_in_augmented": 287,
+  "train_rows": 800,
+  "valid_rows": 100,
+  "test_rows": 100,
+  "test_target": "base predicts rejected (deprecated API)",
+  "source_all": "source_project_root/dataset/edapi_torch_completion_augmented/torch_svd_to_linalg_svd/all.jsonl",
+  "source_matches": "source_project_root/base_api_matches/edapi_torch_completion/torch_svd_to_linalg_svd_starcoder2-3b_base_deprecated_matches.jsonl",
+  "output_dir": "source_project_root/dataset/edapi_torch_completion_augmented_model_conditioned/starcoder2-3b/svd"
+}

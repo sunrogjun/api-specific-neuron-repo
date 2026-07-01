@@ -1,0 +1,77 @@
+[
+  {
+    "pair_id": "torch_norm_to_linalg_norm",
+    "deprecated_api": "torch.norm",
+    "replacement_api": "torch.linalg.norm",
+    "total": 1000,
+    "unique_prompts": 1000,
+    "source_counts": {
+      "edapi_bench": 732,
+      "functions_pytorch_deprecated": 268
+    },
+    "skipped_edapi_duplicates": 239,
+    "splits": {
+      "train": 800,
+      "valid": 100,
+      "test": 100
+    },
+    "all_path": "dataset/edapi_torch_completion_augmented/torch_norm_to_linalg_norm/all.jsonl"
+  },
+  {
+    "pair_id": "torch_svd_to_linalg_svd",
+    "deprecated_api": "torch.svd",
+    "replacement_api": "torch.linalg.svd",
+    "total": 1000,
+    "unique_prompts": 1000,
+    "source_counts": {
+      "edapi_bench": 337,
+      "functions_pytorch_deprecated": 565,
+      "functions_pytorch_replacement": 98
+    },
+    "skipped_edapi_duplicates": 188,
+    "splits": {
+      "train": 800,
+      "valid": 100,
+      "test": 100
+    },
+    "all_path": "dataset/edapi_torch_completion_augmented/torch_svd_to_linalg_svd/all.jsonl"
+  },
+  {
+    "pair_id": "torch_cholesky_to_linalg_cholesky",
+    "deprecated_api": "torch.cholesky",
+    "replacement_api": "torch.linalg.cholesky",
+    "total": 1000,
+    "unique_prompts": 1000,
+    "source_counts": {
+      "edapi_bench": 113,
+      "functions_pytorch_deprecated": 391,
+      "functions_pytorch_replacement": 496
+    },
+    "skipped_edapi_duplicates": 106,
+    "splits": {
+      "train": 800,
+      "valid": 100,
+      "test": 100
+    },
+    "all_path": "dataset/edapi_torch_completion_augmented/torch_cholesky_to_linalg_cholesky/all.jsonl"
+  },
+  {
+    "pair_id": "torch_symeig_to_linalg_eigh",
+    "deprecated_api": "torch.symeig",
+    "replacement_api": "torch.linalg.eigh",
+    "total": 1000,
+    "unique_prompts": 1000,
+    "source_counts": {
+      "edapi_bench": 61,
+      "functions_pytorch_deprecated": 520,
+      "functions_pytorch_replacement": 419
+    },
+    "skipped_edapi_duplicates": 92,
+    "splits": {
+      "train": 800,
+      "valid": 100,
+      "test": 100
+    },
+    "all_path": "dataset/edapi_torch_completion_augmented/torch_symeig_to_linalg_eigh/all.jsonl"
+  }
+]

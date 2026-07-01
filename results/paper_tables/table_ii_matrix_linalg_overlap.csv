@@ -1,0 +1,6 @@
+model,top_200_overlap,top_400_overlap
+StarCoder2-3B,5,9
+StarCoder2-7B,12,14
+StarCoder2-15B,70,135
+DeepSeek-Coder-6.7B-Instruct,20,31
+CodeLlama-7B,0,1

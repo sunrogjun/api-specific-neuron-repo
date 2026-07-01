@@ -1,0 +1,20 @@
+[
+  {
+    "model": "deepseek-coder-6.7b-instruct",
+    "dataset": "torch_cholesky_to_linalg_cholesky",
+    "total": 1000,
+    "matched_deprecated": 475,
+    "match_rate": 0.475,
+    "effective_max_new_tokens": 3,
+    "output": "source_project_root/base_api_matches/edapi_torch_completion/torch_cholesky_to_linalg_cholesky_deepseek-coder-6.7b-instruct_base_deprecated_matches.jsonl"
+  },
+  {
+    "model": "deepseek-coder-6.7b-instruct",
+    "dataset": "torch_symeig_to_linalg_eigh",
+    "total": 1000,
+    "matched_deprecated": 534,
+    "match_rate": 0.534,
+    "effective_max_new_tokens": 3,
+    "output": "source_project_root/base_api_matches/edapi_torch_completion/torch_symeig_to_linalg_eigh_deepseek-coder-6.7b-instruct_base_deprecated_matches.jsonl"
+  }
+]

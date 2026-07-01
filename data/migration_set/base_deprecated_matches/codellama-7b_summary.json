@@ -1,0 +1,20 @@
+[
+  {
+    "model": "codellama-7b",
+    "dataset": "torch_cholesky_to_linalg_cholesky",
+    "total": 1000,
+    "matched_deprecated": 477,
+    "match_rate": 0.477,
+    "effective_max_new_tokens": 3,
+    "output": "source_project_root/base_api_matches/edapi_torch_completion/torch_cholesky_to_linalg_cholesky_codellama-7b_base_deprecated_matches.jsonl"
+  },
+  {
+    "model": "codellama-7b",
+    "dataset": "torch_symeig_to_linalg_eigh",
+    "total": 1000,
+    "matched_deprecated": 506,
+    "match_rate": 0.506,
+    "effective_max_new_tokens": 3,
+    "output": "source_project_root/base_api_matches/edapi_torch_completion/torch_symeig_to_linalg_eigh_codellama-7b_base_deprecated_matches.jsonl"
+  }
+]

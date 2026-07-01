@@ -1,0 +1,82 @@
+[
+  {
+    "dataset": "torch_norm_to_linalg_norm",
+    "model": "starcoder2-3b",
+    "total": 971,
+    "matched_deprecated": 843,
+    "match_rate": 0.8681771369721936,
+    "path": "base_api_matches/edapi_torch_completion/torch_norm_to_linalg_norm_starcoder2-3b_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_norm_to_linalg_norm",
+    "model": "starcoder2-7b",
+    "total": 971,
+    "matched_deprecated": 849,
+    "match_rate": 0.874356333676622,
+    "path": "base_api_matches/edapi_torch_completion/torch_norm_to_linalg_norm_starcoder2-7b_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_norm_to_linalg_norm",
+    "model": "starcoder2-15b",
+    "total": 971,
+    "matched_deprecated": 763,
+    "match_rate": 0.7857878475798146,
+    "path": "base_api_matches/edapi_torch_completion/torch_norm_to_linalg_norm_starcoder2-15b_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_norm_to_linalg_norm",
+    "model": "deepseek-coder-6.7b-instruct",
+    "total": 971,
+    "matched_deprecated": 643,
+    "match_rate": 0.6622039134912462,
+    "path": "base_api_matches/edapi_torch_completion/torch_norm_to_linalg_norm_deepseek-coder-6.7b-instruct_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_norm_to_linalg_norm",
+    "model": "codellama-7b",
+    "total": 971,
+    "matched_deprecated": 767,
+    "match_rate": 0.7899073120494335,
+    "path": "base_api_matches/edapi_torch_completion/torch_norm_to_linalg_norm_codellama-7b_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_svd_to_linalg_svd",
+    "model": "starcoder2-3b",
+    "total": 525,
+    "matched_deprecated": 450,
+    "match_rate": 0.8571428571428571,
+    "path": "base_api_matches/edapi_torch_completion/torch_svd_to_linalg_svd_starcoder2-3b_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_svd_to_linalg_svd",
+    "model": "starcoder2-7b",
+    "total": 525,
+    "matched_deprecated": 515,
+    "match_rate": 0.9809523809523809,
+    "path": "base_api_matches/edapi_torch_completion/torch_svd_to_linalg_svd_starcoder2-7b_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_svd_to_linalg_svd",
+    "model": "starcoder2-15b",
+    "total": 525,
+    "matched_deprecated": 514,
+    "match_rate": 0.979047619047619,
+    "path": "base_api_matches/edapi_torch_completion/torch_svd_to_linalg_svd_starcoder2-15b_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_svd_to_linalg_svd",
+    "model": "deepseek-coder-6.7b-instruct",
+    "total": 525,
+    "matched_deprecated": 240,
+    "match_rate": 0.45714285714285713,
+    "path": "base_api_matches/edapi_torch_completion/torch_svd_to_linalg_svd_deepseek-coder-6.7b-instruct_base_deprecated_matches.jsonl"
+  },
+  {
+    "dataset": "torch_svd_to_linalg_svd",
+    "model": "codellama-7b",
+    "total": 525,
+    "matched_deprecated": 502,
+    "match_rate": 0.9561904761904761,
+    "path": "base_api_matches/edapi_torch_completion/torch_svd_to_linalg_svd_codellama-7b_base_deprecated_matches.jsonl"
+  }
+]

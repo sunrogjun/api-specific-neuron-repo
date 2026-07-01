@@ -1,0 +1,6 @@
+condition,top_tokens_after_torch_dot
+Base,"matrix:0.178; linalg:0.122; tensor:0.088; det:0.075; svd:0.059"
+"ablate localized API-specific neurons, zero-out","tensor:0.165; linalg:0.132; sum:0.076; det:0.071; matrix:0.065"
+"ablate localized API-specific neurons, Gaussian","tensor:0.179; Tensor:0.116; from:0.051; max:0.048; matrix:0.045"
+"ablate randomly selected neurons, zero-out","matrix:0.193; linalg:0.134; tensor:0.085; det:0.075; svd:0.061"
+"ablate randomly selected neurons, Gaussian","matrix:0.166; det:0.117; linalg:0.113; tensor:0.088; svd:0.070"

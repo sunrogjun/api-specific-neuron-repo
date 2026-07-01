@@ -1,0 +1,18 @@
+[
+  {
+    "model": "deepseek-coder-6.7b-instruct",
+    "dataset": "test",
+    "total": 100,
+    "matched_deprecated": 100,
+    "match_rate": 1.0,
+    "output": "source_project_root/base_api_matches/edapi_torch_completion_model_conditioned_test/test_deepseek-coder-6.7b-instruct_base_deprecated_matches.jsonl"
+  },
+  {
+    "model": "deepseek-coder-6.7b-instruct",
+    "dataset": "test",
+    "total": 100,
+    "matched_deprecated": 100,
+    "match_rate": 1.0,
+    "output": "source_project_root/base_api_matches/edapi_torch_completion_model_conditioned_test/test_deepseek-coder-6.7b-instruct_base_deprecated_matches.jsonl"
+  }
+]

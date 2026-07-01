@@ -1,0 +1,263 @@
+{
+  "functions_file": "source_project_root/datasetold/functions_pytorch.jsonl",
+  "output_dir": "source_project_root/dataset/retention_80api_2400/symeig_task",
+  "num_apis": 80,
+  "per_api": 30,
+  "total": 2400,
+  "split_counts": {
+    "train": 1920,
+    "valid": 240,
+    "test": 240
+  },
+  "exclude_api": [
+    "torch.linalg.eigh",
+    "torch.symeig"
+  ],
+  "selected_apis": [
+    "torch.FloatTensor",
+    "torch.Size",
+    "torch.Tensor",
+    "torch.abs",
+    "torch.allclose",
+    "torch.arange",
+    "torch.as_tensor",
+    "torch.autograd.grad",
+    "torch.bmm",
+    "torch.cat",
+    "torch.cholesky",
+    "torch.cholesky_inverse",
+    "torch.cholesky_solve",
+    "torch.clamp",
+    "torch.cos",
+    "torch.cross",
+    "torch.det",
+    "torch.device",
+    "torch.diag",
+    "torch.diag_embed",
+    "torch.dot",
+    "torch.eig",
+    "torch.einsum",
+    "torch.empty",
+    "torch.empty_like",
+    "torch.exp",
+    "torch.eye",
+    "torch.from_numpy",
+    "torch.inverse",
+    "torch.isnan",
+    "torch.jit.script",
+    "torch.linalg.cholesky",
+    "torch.linalg.eig",
+    "torch.linalg.inv",
+    "torch.linalg.lstsq",
+    "torch.linalg.norm",
+    "torch.linalg.qr",
+    "torch.linalg.solve",
+    "torch.linalg.solve_triangular",
+    "torch.linalg.svd",
+    "torch.linspace",
+    "torch.log",
+    "torch.manual_seed",
+    "torch.matmul",
+    "torch.max",
+    "torch.mean",
+    "torch.min",
+    "torch.mm",
+    "torch.nn.Conv1d",
+    "torch.nn.ModuleList",
+    "torch.nn.functional.interpolate",
+    "torch.nn.utils.weight_norm",
+    "torch.no_grad",
+    "torch.norm",
+    "torch.ones",
+    "torch.ones_like",
+    "torch.pow",
+    "torch.qr",
+    "torch.rand",
+    "torch.randint",
+    "torch.randn",
+    "torch.randn_like",
+    "torch.reshape",
+    "torch.sign",
+    "torch.sin",
+    "torch.solve",
+    "torch.sqrt",
+    "torch.stack",
+    "torch.sum",
+    "torch.svd",
+    "torch.tensor",
+    "torch.testing.assert_allclose",
+    "torch.testing.assert_close",
+    "torch.trace",
+    "torch.transpose",
+    "torch.triangular_solve",
+    "torch.unsqueeze",
+    "torch.where",
+    "torch.zeros",
+    "torch.zeros_like"
+  ],
+  "per_api_counts": {
+    "torch.FloatTensor": 30,
+    "torch.Size": 30,
+    "torch.Tensor": 30,
+    "torch.abs": 30,
+    "torch.allclose": 30,
+    "torch.arange": 30,
+    "torch.as_tensor": 30,
+    "torch.autograd.grad": 30,
+    "torch.bmm": 30,
+    "torch.cat": 30,
+    "torch.cholesky": 30,
+    "torch.cholesky_inverse": 30,
+    "torch.cholesky_solve": 30,
+    "torch.clamp": 30,
+    "torch.cos": 30,
+    "torch.cross": 30,
+    "torch.det": 30,
+    "torch.device": 30,
+    "torch.diag": 30,
+    "torch.diag_embed": 30,
+    "torch.dot": 30,
+    "torch.eig": 30,
+    "torch.einsum": 30,
+    "torch.empty": 30,
+    "torch.empty_like": 30,
+    "torch.exp": 30,
+    "torch.eye": 30,
+    "torch.from_numpy": 30,
+    "torch.inverse": 30,
+    "torch.isnan": 30,
+    "torch.jit.script": 30,
+    "torch.linalg.cholesky": 30,
+    "torch.linalg.eig": 30,
+    "torch.linalg.inv": 30,
+    "torch.linalg.lstsq": 30,
+    "torch.linalg.norm": 30,
+    "torch.linalg.qr": 30,
+    "torch.linalg.solve": 30,
+    "torch.linalg.solve_triangular": 30,
+    "torch.linalg.svd": 30,
+    "torch.linspace": 30,
+    "torch.log": 30,
+    "torch.manual_seed": 30,
+    "torch.matmul": 30,
+    "torch.max": 30,
+    "torch.mean": 30,
+    "torch.min": 30,
+    "torch.mm": 30,
+    "torch.nn.Conv1d": 30,
+    "torch.nn.ModuleList": 30,
+    "torch.nn.functional.interpolate": 30,
+    "torch.nn.utils.weight_norm": 30,
+    "torch.no_grad": 30,
+    "torch.norm": 30,
+    "torch.ones": 30,
+    "torch.ones_like": 30,
+    "torch.pow": 30,
+    "torch.qr": 30,
+    "torch.rand": 30,
+    "torch.randint": 30,
+    "torch.randn": 30,
+    "torch.randn_like": 30,
+    "torch.reshape": 30,
+    "torch.sign": 30,
+    "torch.sin": 30,
+    "torch.solve": 30,
+    "torch.sqrt": 30,
+    "torch.stack": 30,
+    "torch.sum": 30,
+    "torch.svd": 30,
+    "torch.tensor": 30,
+    "torch.testing.assert_allclose": 30,
+    "torch.testing.assert_close": 30,
+    "torch.trace": 30,
+    "torch.transpose": 30,
+    "torch.triangular_solve": 30,
+    "torch.unsqueeze": 30,
+    "torch.where": 30,
+    "torch.zeros": 30,
+    "torch.zeros_like": 30
+  },
+  "seed": 20260512,
+  "api_frequency_head": [
+    [
+      "torch.tensor",
+      2648
+    ],
+    [
+      "torch.testing.assert_close",
+      2548
+    ],
+    [
+      "torch.cat",
+      2312
+    ],
+    [
+      "torch.norm",
+      2113
+    ],
+    [
+      "torch.randn",
+      1816
+    ],
+    [
+      "torch.matmul",
+      1556
+    ],
+    [
+      "torch.eye",
+      1280
+    ],
+    [
+      "torch.sum",
+      1266
+    ],
+    [
+      "torch.linalg.norm",
+      1261
+    ],
+    [
+      "torch.zeros",
+      1199
+    ],
+    [
+      "torch.testing.assert_allclose",
+      1119
+    ],
+    [
+      "torch.diag",
+      973
+    ],
+    [
+      "torch.ones",
+      915
+    ],
+    [
+      "torch.mm",
+      881
+    ],
+    [
+      "torch.stack",
+      781
+    ],
+    [
+      "torch.rand",
+      764
+    ],
+    [
+      "torch.linalg.cholesky",
+      649
+    ],
+    [
+      "torch.mean",
+      627
+    ],
+    [
+      "torch.zeros_like",
+      614
+    ],
+    [
+      "torch.svd",
+      559
+    ]
+  ]
+}

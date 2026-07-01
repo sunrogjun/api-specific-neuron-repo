@@ -1,0 +1,20 @@
+[
+  {
+    "model": "starcoder2-3b",
+    "dataset": "torch_cholesky_to_linalg_cholesky",
+    "total": 1000,
+    "matched_deprecated": 562,
+    "match_rate": 0.562,
+    "effective_max_new_tokens": 3,
+    "output": "source_project_root/base_api_matches/edapi_torch_completion/torch_cholesky_to_linalg_cholesky_starcoder2-3b_base_deprecated_matches.jsonl"
+  },
+  {
+    "model": "starcoder2-3b",
+    "dataset": "torch_symeig_to_linalg_eigh",
+    "total": 1000,
+    "matched_deprecated": 608,
+    "match_rate": 0.608,
+    "effective_max_new_tokens": 3,
+    "output": "source_project_root/base_api_matches/edapi_torch_completion/torch_symeig_to_linalg_eigh_starcoder2-3b_base_deprecated_matches.jsonl"
+  }
+]
