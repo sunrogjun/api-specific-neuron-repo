@@ -4,7 +4,7 @@
 
 | Path | Description |
 |------|-------------|
-| `data/` | Processed datasets used by the paper. Dataset construction scripts are intentionally omitted. |
+| `data/` | Processed datasets used by the paper. |
 | `results/localization/` | Localized top-200 neuron sets for the `matrix` and `linalg` seeds. |
 | `results/paper_tables/` | CSV copies of the paper tables. |
 | `results/rq1/` | RQ1 layer distribution, overlap, and decoding summaries. |
@@ -243,22 +243,4 @@ CSV versions of the paper tables are stored in `results/paper_tables/`.
 | Table VIII | `table_viii_rq3_method_comparison.csv` |
 | Table IX | `table_ix_migration_set_generalization.csv` |
 
-## Release Audit
 
-Run:
-
-```bash
-python3 scripts/audit_release_repo.py
-```
-
-The audit checks that the release contains the expected processed datasets and result tables, excludes cache/checkpoint/output directories, and does not contain known stale experimental artifacts.
-
-## Notes
-
-| Item | Policy |
-|------|--------|
-| Base model weights | Not included. Use HuggingFace model ids or local model paths. |
-| Trained edit checkpoints | Not included. Rerun training scripts to regenerate them under `outputs/`. |
-| `outputs/` | Not shipped. Scripts create this directory locally when rerun. |
-| Dataset construction scripts | Not included. The release keeps processed datasets for reproduction. |
-| Old cross-library experiments | Not included because they are outside the current paper scope. |
